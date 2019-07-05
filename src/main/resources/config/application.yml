@@ -1,0 +1,19 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: aop
+  profiles:
+    active: dev
+
+#配置日志  这里日志用xml去配置
+#logback:
+#  dir: ./log
+
+########################################################
+#          不同环境         Environment for Localhost  注意：数据配置在这里
+########################################################
+---
+spring:
+  profiles: dev
