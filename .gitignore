@@ -1,0 +1,37 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+#排除不上传文件
+# IntelliJ project files
+#.idea/dictionaries
+#.idea/libraries
+#.idea/caches
+#.idea/tasks.xml
+#.idea/gradle.xml
+#.idea/workspace.xml
+#.idea/assetWizardSettings.xml
+#/inspectionProfiles/
+
+
+
+/.idea/*
+/target/
+
+
+
+### Executables personal config ###
+.gradle/
+build/
+*self.yml
+
+*.iml
+*.jar
+*.log
+*.class
+
+
+
+#/lib/
+#/classes/
+#/checkouts/
+
+#springcloud/chapter1/ms-mail/src/main/resources/application-dev.yml
