@@ -13,22 +13,22 @@
 
 
 
-/.idea/*
-/target/
+.idea
+target/
 
 
 
 ### Executables personal config ###
 .gradle/
 build/
-*self.yml
 
 *.iml
 *.jar
 *.log
 *.class
-
-
+*.bak
+*self.yml
+*local2.yml
 
 #/lib/
 #/classes/
